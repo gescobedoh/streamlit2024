@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 
-st.title('UPC Data Science 2024 - José Escobedo')
+st.title('José Escobedo')
 
 st.header('Simulador Ventas')
 
