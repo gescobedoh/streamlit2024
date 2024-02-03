@@ -13,6 +13,6 @@ n = st.slider("cant. ventas", 5,100, step=1)
 
 chart_data = pd.DataFrame(np.random.randn(n),columns=['ventas'])
 
-print(chart_data)
+chart_data
 
 st.line_chart(chart_data)
