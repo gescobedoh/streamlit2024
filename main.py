@@ -11,8 +11,8 @@ st.header('Simulador Ventas')
 
 n = st.slider("cant. ventas", 5,100, step=1)
 
-n.show()
-
 chart_data = pd.DataFrame(np.random.randn(n),columns=['ventas'])
+
+chart_data.show()
 
 st.line_chart(chart_data)
